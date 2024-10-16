@@ -1,0 +1,17 @@
+.recipescreen {
+    text-align: left;
+    margin: 40px;
+    width: 300px;
+}
+
+@media (width > 425px) {
+    #root {
+        max-width: 1280px;
+        margin: 0 auto;
+        padding: 2rem;
+    }
+
+    .recipescreen {
+        width: 600px;
+    }
+}

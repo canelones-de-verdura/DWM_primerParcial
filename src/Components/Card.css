@@ -1,0 +1,33 @@
+.card-button {
+    width: 100%;
+    margin: 5px;
+}
+
+.card {
+    /*min-width: 350px;*/
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: white;
+
+    padding: 10px;
+    margin: 10px;
+}
+
+@media (prefers-color-scheme: light) {
+    .card {
+        border-color: black;
+    }
+}
+
+@media (width >= 768px) {
+    .card {
+        min-width: 350px;
+        max-width: 350px;
+    }
+}
